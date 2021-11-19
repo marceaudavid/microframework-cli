@@ -1,9 +1,9 @@
 {
   "name": "microframework-cli",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,7 +11,18 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
-    "commander": "^8.3.0",
-    "conf": "^10.0.3"
-  }
+    "commander": "^8.3.0"
+  },
+  "bin": {
+    "ppft": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceaudavid/microframework-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marceaudavid/microframework-cli/issues"
+  },
+  "homepage": "https://github.com/marceaudavid/microframework-cli#readme",
+  "description": ""
 }
